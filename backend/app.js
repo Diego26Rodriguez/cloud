@@ -9,7 +9,6 @@ const facturaRouter = require('./routers/facturasRouter')
 
 
 const app = express()
-app.use(cors())
 app.use(bodyParser.json())
 
 app.use('/usuarios', userRouter);
