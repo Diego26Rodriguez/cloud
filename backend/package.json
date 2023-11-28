@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js --host 18.212.242.25:3333"
+    "start": "nodemon app.js "
   },
   "author": "diego-manuel-cepeda",
   "license": "ISC",
