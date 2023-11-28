@@ -19,5 +19,6 @@ app.use('/facturas', facturaRouter);
 
 const puerto = 3333;  // Cambia 3334 por el número de puerto que desees
 app.listen(puerto, direccionIP, () => {
+    
   console.log(`Servidor escuchando en http://${direccionIP}:${puerto}`);
 });
