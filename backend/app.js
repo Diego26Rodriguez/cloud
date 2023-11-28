@@ -18,5 +18,7 @@ app.use('/productos', productRouter);
 app.use('/facturas', facturaRouter);
 
 const PORT = process.env.PORT || 3333;
-app.listen(PORT);
+app.listen(PORT,() => {
+    console.log(`Servidor escuchando en el puerto ${PORT}`);
+  });
 console.log('PORT: ' + PORT);
