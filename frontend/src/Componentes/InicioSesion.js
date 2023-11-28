@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRectangleList, faCircleRight } from '@fortawesome/free-regular-svg-icons'
 import PantallaCarga from './Menus/PantallaCarga';
 
-const endpoint = 'http://54.144.255.50:3333/usuarios'
+const endpoint = 'http://18.212.242.25:3333/usuarios'
 
 function SingUp() {
 
